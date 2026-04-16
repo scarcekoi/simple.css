@@ -24,7 +24,7 @@ whiskers:
   --disabled: {{ crust.hex }};
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
     --bg: {{ light.colors.mantle.hex }};

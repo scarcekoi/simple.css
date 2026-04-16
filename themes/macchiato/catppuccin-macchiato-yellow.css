@@ -14,7 +14,7 @@
   --disabled: #181926;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
     --bg: #e6e9ef;
