@@ -1,5 +1,4 @@
 :root {
-  color-scheme: dark;
   --bg: #e6e9ef;
   --accent-bg: #eff1f5;
   --text: #4c4f69;
@@ -14,9 +13,8 @@
   --disabled: #dce0e8;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color-scheme: light;
     --bg: #e6e9ef;
     --accent-bg: #eff1f5;
     --text: #4c4f69;
