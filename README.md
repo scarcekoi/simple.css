@@ -38,7 +38,7 @@
 
 ### Method 1 (Recommended)
 
-1. Add `<link rel="stylesheet" href="https://raw.githubusercontent.com/catppuccin/simple.css/refs/heads/main/themes/<flavor>/catppuccin-<flavor>-<accent>.css">` (replace `<flavor>` and `<accent>` with your flavor and accent of choice.) to the `head` in your HTML file.
+1. Add `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/scarcekoi/simple.css@main/themes/<flavor>/catppuccin-<flavor>-<accent>.css">` (replace `<flavor>` and `<accent>` with your flavor and accent of choice) to the `head` in your HTML file.
 2. Enjoy!
 
 ### Method 2
