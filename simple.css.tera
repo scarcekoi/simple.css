@@ -9,7 +9,7 @@ whiskers:
 ---
 {%- set light = flavors.latte -%}
 :root {
-  color-scheme: dark;
+  color-scheme: light;
   --bg: {{ mantle.hex }};
   --accent-bg: {{ base.hex }};
   --text: {{ text.hex }};
@@ -24,9 +24,9 @@ whiskers:
   --disabled: {{ crust.hex }};
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color-scheme: light;
+    color-scheme: dark;
     --bg: {{ light.colors.mantle.hex }};
     --accent-bg: {{ light.colors.base.hex }};
     --text: {{ light.colors.text.hex }};
