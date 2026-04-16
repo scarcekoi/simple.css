@@ -24,20 +24,18 @@ whiskers:
   --disabled: {{ crust.hex }};
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color-scheme: light;
-    --bg: {{ light.colors.mantle.hex }};
-    --accent-bg: {{ light.colors.base.hex }};
-    --text: {{ light.colors.text.hex }};
-    --text-light: {{ light.colors.subtext0.hex }};
-    --border: {{ light.colors.overlay0.hex }};
-    --accent: {{ light.colors[accent].hex }};
-    --accent-hover: {{ light.colors[accent] | add(lightness=5) | hex }};
-    --accent-text: var(--accent-bg);
-    --code: {{ light.colors.red.hex }};
-    --preformatted: {{ light.colors.subtext1.hex }};
-    --marked: {{ light.colors.yellow.hex }};
-    --disabled: {{ light.colors.crust.hex }};
-  }
+:root {
+  color-scheme: light;
+  --bg: {{ light.colors.mantle.hex }};
+  --accent-bg: {{ light.colors.base.hex }};
+  --text: {{ light.colors.text.hex }};
+  --text-light: {{ light.colors.subtext0.hex }};
+  --border: {{ light.colors.overlay0.hex }};
+  --accent: {{ light.colors[accent].hex }};
+  --accent-hover: {{ light.colors[accent] | add(lightness=5) | hex }};
+  --accent-text: var(--accent-bg);
+  --code: {{ light.colors.red.hex }};
+  --preformatted: {{ light.colors.subtext1.hex }};
+  --marked: {{ light.colors.yellow.hex }};
+  --disabled: {{ light.colors.crust.hex }};
 }
